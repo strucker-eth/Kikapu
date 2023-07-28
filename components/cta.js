@@ -15,13 +15,13 @@ const Cta = () => {
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
-          <a
+          <Link
             href="https://github.com/web3templates"
             target="_blank"
             rel="noopener"
             className="inline-block py-3 mx-auto text-lg font-medium text-center text-indigo-600 bg-white rounded-md px-7 lg:px-10 lg:py-5 ">
         Get Started
-          </a>
+          </Link>
         </div>
       </div>
     </Container>

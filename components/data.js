@@ -11,7 +11,7 @@ import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
+  title: "",
   desc: "Explore the myriad of benefits Kikapu offers and see how it can transform your financial management journey.",
   image: benefitOneImg,
   bullets: [

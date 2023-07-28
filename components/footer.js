@@ -57,34 +57,34 @@ export default function Footer() {
           <div className="">
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
-              <a
+              <Link
                 href="https://twitter.com/web3templates"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Twitter</span>
                 <Twitter />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://facebook.com/web3templates"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Facebook</span>
                 <Facebook />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://instagram.com/web3templates"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Instagram</span>
                 <Instagram />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://linkedin.com/"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Linkedin</span>
                 <Linkedin />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -142,7 +142,7 @@ const Linkedin = ({ size = 24 }) => (
 
 const Backlink = () => {
   return (
-    <a
+    <Link
       href="/"
       target="_blank"
       rel="noopener"
@@ -167,6 +167,6 @@ const Backlink = () => {
       </svg>
 
       <span>Home</span>
-    </a>
+    </Link>
   );
 };
