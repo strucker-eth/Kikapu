@@ -24,15 +24,8 @@ Special thanks to the following contributors for their valuable contributions to
 
 - [Dennis Nduati](https://www.linkedin.com/in/dennisnduati/) 
 - [Lennox Matwere](https://www.linkedin.com/in/lennox-matwere/) 
+- [Samson Oduor ](https://www.linkedin.com/in/samson-oduor-632568237/) 
 
 # License
-This project is closed-source and not publicly available. All rights are reserved by the project owner. Unauthorized distribution, reproduction, or modification of the ThemeChanger component or any associated code is strictly prohibited without explicit written permission from the project owner.
-
-
-
-
-
-
-
-
+This project is closed-source and not publicly available. All rights are reserved by the project owner. Unauthorized distribution, reproduction, or modification of any of the software components or any associated code is strictly prohibited without explicit written permission from the project owner.
 
