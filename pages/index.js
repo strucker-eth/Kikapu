@@ -15,6 +15,7 @@ import PopupWidget from "../components/popupWidget";
 const Home = () => {
   return (
     <>
+    <main class="px-20">
       <Head>
         <title>Kikapu Finance</title>
         <meta
@@ -48,6 +49,7 @@ const Home = () => {
       <Cta />
       <Footer />
       <PopupWidget />
+      </main>
     </>
   );
 }
