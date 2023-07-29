@@ -5,7 +5,7 @@ import { ChevronUpIcon } from "@heroicons/react/24/solid";
 
 const Faq = () => {
   return (
-    <Container className="!p-0">
+    <Container className="!p-0  text-navyBlue">
       <div className="w-full max-w-2xl p-2 mx-auto rounded-2xl">
         {faqdata.map((item, index) => (
           <div key={item.question} className="mb-5">

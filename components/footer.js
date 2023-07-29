@@ -20,14 +20,14 @@ export default function Footer() {
             <div>
               {" "}
               <Link href="/">
-                  <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+                  <span className="flex items-center space-x-2 text-lg font-medium text-indigo-500 dark:text-gray-100">
                     <span>
                       <Image
                         src="/img/logo.svg"
                         alt="N"
-                        width="200"
-                        height="200"
-                        className=""
+                        width="100"
+                        height="100"
+                        className="lg:w-6/12"
                       />
                     </span>
                  

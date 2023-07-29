@@ -15,7 +15,7 @@ import PopupWidget from "../components/popupWidget";
 const Home = () => {
   return (
     <>
-    <main className="lg:px-20 xl:px-20">
+    <main className="lg:px-20 xl:px-20 text-navyBlue">
       <Head>
         <title>Kikapu Finance</title>
         <meta
@@ -29,25 +29,26 @@ const Home = () => {
       <Hero />
       <SectionTitle
         pretitle="Kikapu Benefits"
-        title=" Why Choose Kikapu for Your Financial Management">
+        title=" Why Choose Kikapu for Your Financial Management"
+        className="text-navyBlue">
        Kikapu is your ultimate companion in the world of financial management. Whether you're an individual or a business owner, take full control of your finances with Kikapu. This powerful tool provides you with the necessary features and insights to track, analyze, and optimize your financial activities effectively. 
       </SectionTitle>
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+      <Benefits data={benefitOne}  className="text-navyBlue"/>
+      <Benefits imgPos="right" data={benefitTwo} className="text-navyBlue"/>
       
       <SectionTitle
         pretitle="Testimonials"
         title="Here's what our customers said">
       
       </SectionTitle>
-      <Testimonials />
+      <Testimonials  className="text-navyBlue" />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
         
       </SectionTitle>
-      <Faq />
-      <Cta />
-      <Footer />
-      <PopupWidget />
+      <Faq  className="text-navyBlue" />
+      <Cta  className="" />
+      <Footer  className="text-navyBlue" />
+      <PopupWidget  className="text-navyBlue" />
       </main>
     </>
   );
