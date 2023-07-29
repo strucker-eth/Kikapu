@@ -9,7 +9,7 @@ const Hero = () => {
       <Container className="flex flex-wrap ">
         <div className="flex items-center w-10/12 lg:w-1/2">
           <div className="max-w-2xl mb-8">
-          <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
+          <h1 className="text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:text-3xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
   Take Control of Your Finances with Kikapu
 </h1>
 <p className="py-3 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
