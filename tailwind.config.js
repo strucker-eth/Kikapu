@@ -9,6 +9,11 @@ module.exports = {
     extend: {
       colors: {
         trueGray: colors.neutral,
+        indigo: {
+          600: "#FAA21D",
+          500: "#FAA21D"
+        },
+        navyBlue: "#131521",
       },
     },
     fontFamily: {

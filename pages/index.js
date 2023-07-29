@@ -15,7 +15,7 @@ import PopupWidget from "../components/popupWidget";
 const Home = () => {
   return (
     <>
-    <main class="px-20">
+    <main className="px-20">
       <Head>
         <title>Kikapu Finance</title>
         <meta
@@ -42,8 +42,7 @@ const Home = () => {
       </SectionTitle>
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+        
       </SectionTitle>
       <Faq />
       <Cta />

@@ -26,12 +26,12 @@ const Navbar = () => {
                       <Image
                         src="/img/logo.svg"
                         alt="N"
-                        width="32"
-                        height="32"
-                        className="w-8"
+                        width="200"
+                        height="200"
+                        className=""
                       />
                     </span>
-                    <span>Kikapu</span>
+                 
                   </span>
                 </Link>
 

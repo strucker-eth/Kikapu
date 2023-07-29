@@ -58,7 +58,7 @@ const Hero = () => {
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
             <div className="pt-2 text-gray-400 dark:text-gray-400">
-              <amazonLogo />
+              <AmazonLogo />
             </div>
             <div className="text-gray-400 dark:text-gray-400">
               <VerizonLogo />
